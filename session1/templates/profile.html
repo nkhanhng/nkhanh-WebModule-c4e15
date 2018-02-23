@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Facebook clone</title>
+  </head>
+  <body>
+    <h1>{{ User }}</h1>
+    {% for profile in profiles %}
+      <p>{{ profile.name }}</p>
+    {% endfor %}
+  </body>
+</html>
