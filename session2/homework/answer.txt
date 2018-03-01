@@ -1,0 +1,2 @@
+Bởi vì mỗi record sẽ phải có 1 primary key để phân biệt với cái record khác, nếu id trùng thì giá trị trong mỗi record phải
+giống nhau

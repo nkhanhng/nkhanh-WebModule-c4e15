@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Customer</title>
+  </head>
+  <body>
+    {% for customer in all_customers %}
+      <br>
+      <b>{{ customer.name }}</b>
+      <p>{{ customer.gender }}</p>
+      <p>{{ customer.email }}</p>
+      <p>{{ customer.phonenumber }}</p>
+      <p>{{ customer.job }}</p>
+      <p>{{ customer.company }}</p>
+      <p>{{ customer.contacted }}</p>
+      <hr>
+    {% endfor %}
+  </body>
+</html>
