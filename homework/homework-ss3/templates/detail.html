@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Girl</title>
+  </head>
+  <body>
+    <h2>Details</h2>
+    <img src={{service.image}}>
+    <p>{{service.name}}</p>
+    <p>{{service.yob}}</p>
+    <p>{{"Female" if service.gender == 0 else "Male"}}</p>
+    <p>{{service.height}}</p>
+    <p>{{service.phone}}</p>
+    <p>{{service.address}}</p>
+    <p>{{"Single" if service.status == True else "Rela" }}</p>
+    <p>{{service.description}}</p>
+    <p>{{service.measurements}}</p>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Girls</title>
+  </head>
+  <body>
+    <table border="1px">
+      <thead>
+        <th>n</th>
+        <th>Name</th>
+        <th>Yob</th>
+        <th>Gender</th>
+        <th>Height</th>
+        <th>Phone</th>
+        <th>Address</th>
+        <th>Status</th>
+        <th>Description</th>
+        <th>Measurements</th>
+        <th></th>
+      </thead>
+      <tbody>
+      {% for service in all_services %}
+        <tr>
+          <td>{{loop.index}}</td>
+          <td>{{service.name}}</td>
+          <td>{{service.yob}}</td>
+          <td>{{"Female" if service.gender == 0 else "Male"}}</td>
+          <td>{{service.height}}</td>
+          <td>{{service.phone}}</td>
+          <td>{{service.address}}</td>
+          <td>{{"Single" if service.status == True else "Rela" }}</td>
+          <td>{{service.description}}</td>
+          <td>{{service.measurements}}</td>
+          <td>
+            <a href="{{url_for('detail',sid = service.id)}}">Detail</a>
+            <a href="{{url_for('update_service',service_id=update_service.id)}}">Edit</a>
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>

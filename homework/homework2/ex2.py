@@ -10,7 +10,8 @@ app = Flask(__name__)
 
 @app.route('/search')
 def search():
-    service = Service.objects.get(id= "5a95626a65c39a1ff07a69a9")
+    service = Service.objects.get(id= "5a955a4065c39a11842f41ea")
+    print(service)
     return render_template('index.html',service= service)
 
 if __name__ == '__main__':
