@@ -49,16 +49,16 @@ def creat():
                               measurements = measurements)
 
         new_service.save()
+        print(new_service.to_mongo())
         return "Saved"
 
 @app.route('/update_service/<service_id>',methods = ['GET','POST'])
 def update(service_id):
     update_service = Service.objects.get(id = service_id)
-
+    print(update_service)
     if request.method == 'GET':
         return render_template("update_service.html",update_service = update_service)
     elif request.method == 'POST':
-        print(update_service)
         form = request.form
         name = form['name']
         yob = form['yob']
