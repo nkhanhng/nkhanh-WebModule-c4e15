@@ -1,0 +1,28 @@
+.h-200px {
+  height: 200px;
+}
+
+.w-200px {
+  width: 200px;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.d-inline-block{
+  display: inline-block;
+}
+
+.h-30px {
+  height: 30px;
+}
+
+.w-30px {
+  width: 30px;
+}
+
+.sizing-cen{
+  box-sizing: content-box;
+  padding: 80px;
+}

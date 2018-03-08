@@ -1,0 +1,32 @@
+.align-cen {
+  text-align: center;
+}
+
+h4{
+  font-family: 'Domine', serif;
+  margin:0;
+}
+
+h2 {
+  font-family: 'Domine', serif;
+}
+
+.nav {
+  border: 1px solid black;
+  margin:0;
+  padding:10px;
+  list-style:none;
+  text-align: center;
+}
+
+.nav li{
+  display: inline;
+  margin: 50px;
+  font-family: 'Domine', serif;
+}
+
+.nav a{
+  display: inline-block;
+  color: rgb(42, 43, 46);
+  text-decoration: none;
+}

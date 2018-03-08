@@ -1,0 +1,19 @@
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-red {
+  color: red;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.font-size-18px {
+  font-size: 18px;
+}
+
+.font-style-italic {
+  font-style: italic;
+}

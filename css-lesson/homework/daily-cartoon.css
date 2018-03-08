@@ -1,0 +1,20 @@
+.text-red {
+  color: red;
+}
+
+.font {
+  font-family: 'News Cycle', sans-serif;
+}
+
+b {
+  font-family: 'Old Standard TT', serif;
+  padding-bottom: 20px;
+}
+
+.fsize-20px {
+  font-size: 15px
+}
+
+.fsize-10px {
+  font-size: 10px;
+}

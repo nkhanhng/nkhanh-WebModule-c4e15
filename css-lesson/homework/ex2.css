@@ -1,0 +1,15 @@
+.nav {
+  border: 1px solid blue;
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  text-align: center;
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav a{
+  display: inline-block;
+}

@@ -60,15 +60,25 @@ def update(service_id):
         return render_template("update_service.html",update_service = update_service)
     elif request.method == 'POST':
         form = request.form
+
         name = form['name']
-        yob = form['yob']
-        gender = form['gender']
-        height = form['height']
+        print(name)
+        yob = int(form['yob'])
+        print(yob)
+        gender = int(form['gender'])
+        print(gender)
+        height = int(form['height'])
+        print(height)
         phone = form['phone']
+        print(phone)
         address = form['address']
+        print(address)
         status = form['status']
+        print(status)
         image = form['image']
+        print(image)
         description = form['description']
+        print(description)
         measure1 = int(form['measure1'])
         measure2 = int(form['measure2'])
         measure3 = int(form['measure3'])
