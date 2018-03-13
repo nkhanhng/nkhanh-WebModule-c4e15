@@ -1,0 +1,31 @@
+.d-flex{
+  display: flex;
+  background: #ccc;
+  padding: 10px;
+  flex-flow: wrap;
+  /* justify-content: space-between; */
+  height: 500px;
+  /* align-items: flex-end; */
+  align-content: space-around;
+}
+
+.w-80px{
+  width: 80px;
+}
+
+.bg-green{
+  background: green;
+}
+
+.mx-10px{
+  margin: 10px;
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+.h-80px{
+  height: 80px;
+}

@@ -1,0 +1,30 @@
+.background{
+  background-image: url("https://cdn-media-1.lifehack.org/wp-content/files/2015/09/02131828/typewriter-801921_1280.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.h-500px {
+  height: 1000px;
+}
+
+.align-cen{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.border-radius{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+.rela {
+  position: relative;
+}
+
+.color{
+  color: white;
+}
